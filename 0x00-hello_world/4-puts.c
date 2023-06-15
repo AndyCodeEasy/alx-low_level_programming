@@ -2,7 +2,7 @@
 
 /*
  *main is the entry point
- *this code prints: Programming is like building a multilingual puzzle
+ *Description: Programming is like building a multilingual puzzle
  */
 
 int main(void)
