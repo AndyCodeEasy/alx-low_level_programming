@@ -2,7 +2,7 @@
 
 /*
  *main is the entry point
- *Description:prints the line \"Programming is like building a multilingual puzzle
+ *Description:prints the line Programming is like building a multilingual puzzle
  */
 
 int main(void)
