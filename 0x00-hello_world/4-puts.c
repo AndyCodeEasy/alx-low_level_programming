@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- *main : entry point
+ * main : entry point
  *
- *Description:
+ * Description: prints the line Programming is like building a multilingual puzzle
  *
- *prints the line Programming is like building a multilingual puzzle
+ * Return: Always 0 
  */
 
 int main(void)
