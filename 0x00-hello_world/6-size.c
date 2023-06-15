@@ -15,12 +15,12 @@ int main(void)
 	long f;
 	long long g;
 
-	puts("size of char: %lu bytes", sizeof(a));
-	puts("size of int: %lu bytes", sizeof(b));
-	puts("size of float: %lu bytes", sizeof(c));
-	puts("size of double: %lu bytes", sizeof(d));
-	puts("size of short: %lu bytes", sizeof(e));
-	puts("size of long: %lu bytes", sizeof(f));
-	puts("size of long long: %lu bytes", sizeof(g));
+	printf("size of char: %lu bytes\n", sizeof(a));
+	printf("size of int: %lu bytes\n", sizeof(b));
+	printf("size of float: %lu bytes\n", sizeof(c));
+	printf("size of double: %lu bytes\n", sizeof(d));
+	printf("size of short: %lu bytes\n", sizeof(e));
+	printf("size of long: %lu bytes\n", sizeof(f));
+	printf(("size of long long: %lu bytes\n", sizeof(g));
 	return (0);
 }
