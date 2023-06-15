@@ -15,12 +15,12 @@ int main(void)
 	long f;
 	long long g;
 
-	printf("size of char: %lu bytes\n", sizeof(a));
-	printf("size of int: %lu bytes\n", sizeof(b));
-	printf("size of float: %lu bytes\n", sizeof(c));
-	printf("size of double: %lu bytes\n", sizeof(d));
-	printf("size of short: %lu bytes\n", sizeof(e));
-	printf("size of long: %lu bytes\n", sizeof(f));
-	printf(("size of long long: %lu bytes\n", sizeof(g));
+	printf("size of char: %zu bytes\n", sizeof(a));
+	printf("size of int: %zu bytes\n", sizeof(b));
+	printf("size of float: %zu bytes\n", sizeof(c));
+	printf("size of double: %zu bytes\n", sizeof(d));
+	printf("size of short: %zu bytes\n", sizeof(e));
+	printf("size of long: %zu bytes\n", sizeof(f));
+	printf(("size of long long: %zu bytes\n", sizeof(g));
 	return (0);
 }
