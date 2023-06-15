@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-\*
+/*
  *this code prints: Programming is like building a multilingual puzzle 
- *\
+ */
 
 int main(void)
 {
