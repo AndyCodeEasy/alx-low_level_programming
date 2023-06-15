@@ -3,7 +3,7 @@
 /**
  * main - entry point
  * Description: printing using the write command
- * Return 1
+ * Return: Always 1
  */
 
 int main(void)
