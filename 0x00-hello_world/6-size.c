@@ -13,6 +13,5 @@ int main(void)
 	printf("size of double: %zu bytes\n", sizeof(double));
 	printf("size of short: %zu bytes\n", sizeof(short));
 	printf("size of long: %zu bytes\n", sizeof(long));
-	printf(("size of long long: %zu bytes\n", sizeof(long long));
 	return (0);
 }
