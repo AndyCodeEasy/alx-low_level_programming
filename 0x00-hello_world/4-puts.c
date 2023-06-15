@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /*
+ *main is the entry point
  *this code prints: Programming is like building a multilingual puzzle
  */
 
