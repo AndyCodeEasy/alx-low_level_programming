@@ -10,27 +10,31 @@
 
 int main(void)
 {
-	int a, b;
-	int count = 0;
+	int i, j, a, b, c, d;
 
-	for (a = 48; a <= 57; a++)
+	for (i = 0; i <= 100; i++)
 	{
-		for (b = a + 1; b <= 57; b++)
+		a = i / 10;
+		b = i % 10;
+
+		for (j = 0; j <= 100; j++)
 		{
-			if (a != b)
+			c = j / 10;
+			d = j % 10;
+
+			if (a < c || (a == c && b < d))
 			{
-				if (count > 0)
+				putchar(a + '0');
+				putchar(b + '0');
+				putchar(32);
+				putchar(c + '0');
+				putchar(d + '0');
+
+				if (!(a == 9 && b == 8))
 				{
 					putchar(44);
 					putchar(32);
 				}
-				putchar(a / 10 + '0');
-				putchar(a % 10 + '0');
-				putchar(32);
-				putchar(b / 10 + '0');
-				putchar(b % 10 + '0');
-
-				count++;
 			}
 		}
 	}
