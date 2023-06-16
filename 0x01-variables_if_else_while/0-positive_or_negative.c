@@ -5,7 +5,7 @@
  * main - entry point
  *
  * description: prints the sign of the int n
- * 
+ *
  * Return: Always 0 (Success)
  */
 
