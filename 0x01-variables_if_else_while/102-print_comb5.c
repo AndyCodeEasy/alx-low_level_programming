@@ -11,7 +11,6 @@
 int main(void)
 {
 	int a, b, c, d;
-	int count = 0;
 
 	for (a = 48; a <= 54; a++)
 	{
