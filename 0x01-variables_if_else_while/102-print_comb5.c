@@ -10,23 +10,27 @@
 
 int main(void)
 {
-	int a, b, c, d;
+	int a, b;
+	int count = 0;
 
-	for (a = 48; a <= 54; a++)
+	for (a = 48; a <= 57; a++)
 	{
-		for (b = a + 1; b <= 55; b++)
+		for (b = a + 1; b <= 57; b++)
 		{
-			for (c = b + 1; b <= 56; c++)
+			if (a != b)
 			{
-				for (d = c + 1; d <= 57; d++)
+				if (count > 0)
 				{
-					putchar(a);
-					putchar(b);
+					putchar(44);
 					putchar(32);
-					putchar(c);
-					putchar(d);
 				}
+				putchar(a / 10 + 48);
+				putchar(a % 10 + 48);
+				putchar(32);
+				putchar(b / 10 + 48);
+				putchar(b % 10 + 48);
 			}
+			count++;
 		}
 	}
 	putchar('\n');
