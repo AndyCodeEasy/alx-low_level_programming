@@ -20,7 +20,7 @@ int main(void)
 			for (c = b + 1; c <= 57; c++)
 			{
 				if (count > 0)
-				{	
+				{
 					putchar(44);
 					putchar(32);
 				}
