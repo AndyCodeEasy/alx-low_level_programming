@@ -24,11 +24,11 @@ int main(void)
 					putchar(44);
 					putchar(32);
 				}
-				putchar(a / 10);
-				putchar(a % 10);
+				putchar(a / 10 + 48);
+				putchar(a % 10 + 48);
 				putchar(32);
-				putchar(b / 10);
-				putchar(b % 10);
+				putchar(b / 10 + 48);
+				putchar(b % 10 + 48);
 			}
 			count++;
 		}
