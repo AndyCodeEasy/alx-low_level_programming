@@ -29,8 +29,9 @@ int main(void)
 				putchar(32);
 				putchar(b / 10 + 48);
 				putchar(b % 10 + 48);
+
+				count++;
 			}
-			count++;
 		}
 	}
 	putchar('\n');
