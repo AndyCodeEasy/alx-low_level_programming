@@ -18,17 +18,16 @@ int main(void)
 		{
 			for (c = b + 1; c <= 57; c++)
 			{
-			if (a < b && b < c)
-			{
+				if (count > 0)
+				{	
+					putchar(44);
+					putchar(32);
+				}
 				putchar(a);
 				putchar(b);
 				putchar(c);
-			}
-			}
-			if (!(a == 55 && b == 56 && c == 57))
-			{
-				putchar(44);
-				putchar(32);
+
+				count++;
 			}
 		}
 	}
