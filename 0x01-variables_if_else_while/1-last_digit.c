@@ -6,7 +6,7 @@
  *
  * description: prints the last digit of n
  *
- * Return 0 Always
+ * Return: 0 Always
  */
 
 int main(void)
