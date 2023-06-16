@@ -13,13 +13,15 @@ int main(void)
 	int a;
 	int b = 44;
 	int c = 32;
+	int d = 57;
 
-	for (a = 48; a <= 57; a++)
+	for (a = 48; a <= 56; a++)
 	{
 		putchar(a);
 		putchar(b);
 		putchar(c);
 	}
-	
+	putchar(d);
+
 	return (0);
 }
