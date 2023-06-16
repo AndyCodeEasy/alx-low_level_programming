@@ -1,10 +1,10 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - Entry point
  *
  * description: prints the alphabet in lowercase
  *
- * Return 0 Always
+ * Return: 0 Always
  */
 
 int main(void)
