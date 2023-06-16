@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 /**
@@ -5,7 +6,7 @@
  *
  * description: prints the sign of the int n
  * 
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
