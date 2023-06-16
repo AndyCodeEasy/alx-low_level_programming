@@ -11,17 +11,14 @@
 int main(void)
 {
 	int a;
-	int b = 44;
-	int c = 32;
-	int d = 57;
 
 	for (a = 48; a <= 56; a++)
 	{
 		putchar(a);
-		putchar(b);
-		putchar(c);
+		putchar(44);
+		putchar(32);
 	}
-	putchar(d);
+	putchar(57);
 
 	return (0);
 }
