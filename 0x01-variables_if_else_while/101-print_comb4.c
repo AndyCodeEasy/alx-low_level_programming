@@ -18,9 +18,12 @@ int main(void)
 		{
 			for (c = b + 1; c <= 57; c++)
 			{
+			if (a < b && b < c)
+			{
 				putchar(a);
 				putchar(b);
 				putchar(c);
+			}
 			}
 			if (!(a == 55 && b == 56 && c == 57))
 			{
