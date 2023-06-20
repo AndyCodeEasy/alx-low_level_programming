@@ -3,18 +3,19 @@
 /**
  * main - entry point
  *
- * description: prints the alphabet in lowercase followed by new line
+ * description: prints the alphabet, in lowercase, followed by a new line
  *
- * Return: 0
+ * return: 0
  */
 
-int main(void)
+void print_alphabet(void);
 {
-	int a;
+	char a = 'a';
 
-	for (a = 97; a <= 122; a++)
+	while (a <= 'z')
 	{
 		_putchar(a);
+		a++;
 	}
 	_putchar('\n');
 	return (0);
