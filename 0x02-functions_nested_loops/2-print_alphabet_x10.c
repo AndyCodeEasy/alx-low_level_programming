@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * description: initial description
+ * print_alphabet_x10 - entry point
  *
- * print_alphabet_x10: print 10 times the alphabet, in lowercase
+ * description: print 10 times the alphabet, in lowercase
+ *
+ * Return: nothing
  */
 
 void print_alphabet_x10(void)
