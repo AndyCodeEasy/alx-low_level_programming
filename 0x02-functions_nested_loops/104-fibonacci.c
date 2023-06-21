@@ -8,17 +8,17 @@
 
 int main(void)
 {
-	unsigned long int a, b, c;
+	unsigned long long int a, b, c;
 	unsigned int i;
 
 	a = 1;
 	b = 2;
-	printf("%lu, %lu", a, b);
+	printf("%llu, %llu", a, b);
 
-	for (i = 0; i <= 96; i++)
+	for (i = 0; i < 96; i++)
 	{
 		c = a + b;
-		printf(", %lu", c);
+		printf(", %llu", c);
 		a = b;
 		b = c;
 	}
