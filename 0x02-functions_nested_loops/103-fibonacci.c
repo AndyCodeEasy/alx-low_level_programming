@@ -25,6 +25,6 @@ int main(void)
 		if (fib[a] % 2 == 0)
 			sum += fib[a];
 	}
-	printf("%ld", sum);
+	printf("%ld\n", sum);
 	return (0);
 }
