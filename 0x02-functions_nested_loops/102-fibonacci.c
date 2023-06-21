@@ -3,13 +3,13 @@
 /**
  * main - entry point
  * description: prints the first 50 Fibonacci numbers
- * return: 0
+ * Return: always 0
  */
 
 int main(void)
 {
 	int a;
-	int fib[50];
+	long int fib[50];
 
 	fib[0] = 1;
 	fib[1] = 2;
@@ -20,7 +20,7 @@ int main(void)
 	}
 	for (a = 0; a < 50; a++)
 	{
-		printf("%d", fib[a]);
+		printf("%ld", fib[a]);
 		if (a != 49)
 		{
 			printf(", ");
