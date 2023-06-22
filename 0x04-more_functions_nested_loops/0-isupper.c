@@ -18,5 +18,6 @@ int _isupper(int c)
 		if (c == a)
 			return (1);
 	}
+	_putchar('\n');
 	return (0);
 }
