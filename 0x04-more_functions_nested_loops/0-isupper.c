@@ -10,13 +10,9 @@
 
 int _isupper(int c)
 {
-	char a;
-	
-	for (a = 'A'; a <= 'Z'; a++)
-	{
-		if (c == a)
-			return (1);
-	}
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 	_putchar('\n');
-	return (0);
 }
