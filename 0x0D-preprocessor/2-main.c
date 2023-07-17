@@ -6,10 +6,8 @@
  * Return: Always 0.
  */
 
-#define __BASE_FILE__
-
 int main(void)
 {
-	printf("Filename is: %s\n", __BASE_FILE__);
+	printf("Filename is: %s\n", __FILE__);
 	return 0;
 }
